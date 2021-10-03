@@ -1,0 +1,186 @@
+/*----------BODY----------*/
+.my_font {
+    font-family: 'Scheherazade New', serif !important;
+}
+.my_text{
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+.my_link {
+    color: white;
+}
+.my_link:hover {
+    color: #eb34db;
+}
+.black_letter {
+    color: black;
+}
+.pink_letter {
+    color: #B49BC8;
+}
+.gray_letter {
+    color: #d3d3d3;
+}
+/*----------NAVBAR----------*/
+.my_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    padding: 5px;
+    /*border: 2px solid red;*/
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-family: 'Scheherazade New', serif;
+}
+.icon {
+    width: 25px;
+    height: 25px;
+}
+.title_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 200px;
+    /*border: 2px solid green;*/
+    width: 16%;
+}
+.bookybooks_title {
+    font-size: 25px;
+}
+.navbar_links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-right: 200px;
+    /*border: 2px solid blue;*/
+}
+.sff_links {
+    width: 50%;
+    font-size: 20px;
+}
+.login_links {
+    width: 35%;
+    color: lightgray;
+}
+/*----------CAROUSEL----------*/
+#book_carousel {
+    position: relative;
+    left: 250px;
+    top: -20px;
+    height: 455px;
+    margin-left: 350px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+    }
+.img-shadow:hover {
+    box-shadow: 0px 4px 8px 0px  #DF43E2, 0px 6px 20px 0px  #DF43E2;
+}
+.carousel-inner {
+    background-color: #B49BC8 !important;
+}
+#app_carousel {
+    height: 455px;
+    margin-left: 350px;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+/*----------DISCOVER SECTION----------*/
+.section-title {
+    text-align: center;
+    background-color: black; /*#2941AB*/
+    margin-bottom: 0;
+    padding: 200px !important;
+    font-family: 'Releway', sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+    color: #B49BC8;
+}
+.my_bg {
+    background-color: black;
+    color: white;
+    font-family: 'Releway', sans-serif;
+}
+.disc_font {
+    font-size: 20px;
+}
+/*----------TOP REVIEWERS SECTION----------*/
+.top-reviewers {
+    background-color: #212529;
+}
+#no_margin {
+    margin-bottom: 0;
+}
+.empty_section {
+    background-color: #212529;
+    color: #212529;
+}
+.top_r {
+    font-size: 25px;
+}
+/*----------SFF NEWS SECTION----------*/
+.sff_news {
+    background-color: white;
+}
+.white_section {
+    background-color: white;
+}
+.news-font-size {
+    font-size: 40px;
+}
+/*----------QUOTE OF THE DAY SECTION----------*/
+.qt-day {
+    background-color: #212529;
+    padding-top: 100px;
+    }
+.qt-font {
+    color: white;
+    padding-bottom: 150px;
+}
+.qt-size {
+    font-size: 40px;
+}
+/*----------BOTTOM LINKS + NEWSLETTER SECTION----------*/
+.black_section {
+    background-color: black;
+}
+.bottom_container {
+    display: flexbox;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 50px 100px;
+    margin-bottom: 0;
+    color: white;
+    background-color: black;
+}
+.bottom_links {
+    /*display: flexbox;
+    box-sizing: border-box;
+    width: 30%;
+    height: 200px;
+    border: 2px solid red;
+    align-items: center;
+    padding: 10px;*/
+    float: left;
+    width: 30%;
+    margin: 0 100px;
+}
+.each-bottom-l {
+    margin: 30px;
+}
+.subscribe-button {
+    float: right;
+    width: 30%;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+/*----------modal----------*/
+.black-bg {
+    background-color: black;
+}
